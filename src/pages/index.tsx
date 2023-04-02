@@ -6,7 +6,6 @@ import { toast } from "react-hot-toast";
 import { PageLayout } from "~/components/layout";
 import { LoadingPage, LoadingSpinner } from "~/components/loading";
 import { PostView } from "~/components/postview";
-
 import { api } from "~/utils/api";
 
 const CreatePostWizard = () => {
