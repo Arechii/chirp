@@ -573,13 +573,20 @@
     "@upstash/redis" "^1.19.3"
 
 "@upstash/ratelimit@^0.4.1":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@upstash/ratelimit/-/ratelimit-0.4.1.tgz#1b0633b3a5b5d4c9c6d8fd766585927ac9d6c5cf"
-  integrity sha512-NdL4E8jOrqSIOuDFVx5TLdh0/2tefgnrzBeqx+soy1cjGnx8sKdCZpOi4xhG5rm6F9ch89ZzIcBm6iRhx+tLgA==
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/@upstash/ratelimit/-/ratelimit-0.4.4.tgz#99b4d9e2428c18ef0946ec347b5f22dac0184e60"
+  integrity sha512-y3q6cNDdcRQ2MRPRf5UNWBN36IwnZ4kAEkGoH3i6OqdWwz4qlBxNsw4/Rpqn9h93+Nx1cqg5IOq7O2e2zMJY1w==
   dependencies:
     "@upstash/core-analytics" "^0.0.6"
 
-"@upstash/redis@^1.19.3", "@upstash/redis@^1.20.2":
+"@upstash/redis@^1.19.3":
+  version "1.22.0"
+  resolved "https://registry.yarnpkg.com/@upstash/redis/-/redis-1.22.0.tgz#3ae3ef056608c8598f46e8bc3b3f405a94781142"
+  integrity sha512-sXoJDoEqqik0HbrNE7yRWckOySEFsoBxfRdCgOqkc0w6py19ZZG50SpGkDDEUXSnBqP8VgGYXhWAiBpqxrt5oA==
+  dependencies:
+    isomorphic-fetch "^3.0.0"
+
+"@upstash/redis@^1.20.2":
   version "1.20.2"
   resolved "https://registry.yarnpkg.com/@upstash/redis/-/redis-1.20.2.tgz#f797915c90054764b26d2289f5da5dd4b68d8480"
   integrity sha512-9QS/SypDxeeh672H7dEEmuYOX5TtPYnaDLlhxWJEPd8LzcEQ6hohwDJuojpqGkvvvrK58mlWOkN1GrMxbXPTeQ==
@@ -2119,9 +2126,9 @@ node-fetch-native@1.0.1:
   integrity sha512-VzW+TAk2wE4X9maiKMlT+GsPU4OMmR1U9CrHSmd3DFLn2IcZ9VJ6M6BBugGfYUnPCLSYxXdZy17M0BEJyhUTwg==
 
 node-fetch@^2.6.1:
-  version "2.6.9"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.9.tgz#7c7f744b5cc6eb5fd404e0c7a9fec630a55657e6"
-  integrity sha512-DJm/CJkZkRjKKj4Zi4BsKVZh3ValV5IR5s7LVZnW+6YMh0W1BfNA8XSs6DLMGYlId5F3KnA70uu2qepcR08Qqg==
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.7.0.tgz#d0f0fa6e3e2dc1d27efcd8ad99d550bda94d187d"
+  integrity sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==
   dependencies:
     whatwg-url "^5.0.0"
 
@@ -2952,9 +2959,9 @@ webidl-conversions@^3.0.0:
   integrity sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==
 
 whatwg-fetch@^3.4.1:
-  version "3.6.2"
-  resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-3.6.2.tgz#dced24f37f2624ed0281725d51d0e2e3fe677f8c"
-  integrity sha512-bJlen0FcuU/0EMLrdbJ7zOnW6ITZLrZMIarMUVmdKtsGvZna8vxKYaexICWPfZ8qwf9fzNq+UEIZrnSaApt6RA==
+  version "3.6.18"
+  resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-3.6.18.tgz#2f640cdee315abced7daeaed2309abd1e44e62d4"
+  integrity sha512-ltN7j66EneWn5TFDO4L9inYC1D+Czsxlrw2SalgjMmEMkLfA5SIZxEFdE6QtHFiiM6Q7WL32c7AkI3w6yxM84Q==
 
 whatwg-url@^5.0.0:
   version "5.0.0"
